@@ -1,0 +1,13 @@
+When not using default directories the init command did not seem to populate these correctly
+
+"name": ".", // this has to be blank for the builf process otherwise it prefixes everything with this value
+"main": "timernator.js",
+"directories": {
+  "lib": "timernator", // timernator is child directory with all source files
+  "baseURL": "timernator", // server also runs out of here
+  "packages": "timernator/jspm_packages" // new location for packages
+},
+
+scripts
+"serveit": "browser-sync start --server 'timernator' --files 'proj'",
+"buildit": "jspm bundle timernator.js -wid"
