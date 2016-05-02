@@ -2,8 +2,6 @@
 Timernator is a JavaScript timer that uses a css transition to change colors
 of the back ground Great as a pomodoro or lecture timer.
 
-[Jsfiddle](https://jsfiddle.net/jf7g3e1m/)
-
 ## Installation
 (Note: prerequisites = [Node.js](https://nodejs.org/download/)):
 
@@ -13,7 +11,7 @@ of the back ground Great as a pomodoro or lecture timer.
 sudo npm install jspm/jspm-cli -g
 ```
 
-#### Step 2: Clone this repo and from a terminal in the root of the jspm-startup directoy run:
+#### Step 2: Clone this repo and from a terminal in the root of the package.json directoy run:
 
 ```
 npm install
@@ -31,3 +29,6 @@ jspm install
 ```
 $ npm run serveit
 ```
+
+## old
+[Jsfiddle](https://jsfiddle.net/jf7g3e1m/)
